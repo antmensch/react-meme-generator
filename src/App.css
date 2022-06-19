@@ -1,38 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@400;600;700&display=swap');
+
 .App {
+  max-width: 550px;
+  margin: auto;
+  background-color: #fff;
+  font-family: 'Karla', sans-serif;
+}
+
+.header {
+  height: 65px;
+  background-image: linear-gradient(to right, #672280, #A626D3);
+  color:#fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px 0 20px;
+}
+
+.header--logo-group {
+  display: flex;
+  align-items: center;
+}
+
+.header--logo-text {
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  margin-left: 6px;
+}
+
+.header--info {
+  height: 65px;
+  line-height: 65px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.mainForm {
+  margin: auto;
+  padding: 36px 36px 25px 36px;
+}
+
+  .mainForm--input-group {
+  display:flex;
+  justify-content: space-between;
+}
+
+.mainForm--textInput {
+  width:210px;
+  height: 15px;
+  line-height: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  font-size: 12px;
+}
+
+.mainForm--submit {
+  box-sizing: content-box;
+  margin: 15px 0;
+  padding: 10px 0;
+  width: 100%;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  background-image: linear-gradient(to right, #711F8D, #A818DA);
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.main--imageContainer {
+  width: 477px;
+  margin: auto;
+  margin-bottom: 55px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main--memeImg {
+  max-width: 100%;
 }
