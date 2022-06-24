@@ -1,6 +1,6 @@
 import './App.css';
 import Header from "./components/Header"
-import MainForm from './components/MainForm';
+import MainForm from './components/mainform/MainForm';
 
 function App() {
   return (
